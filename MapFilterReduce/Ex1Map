@@ -1,0 +1,38 @@
+const arr=[2,4,3,7,5];
+
+// const double= function(x){
+//     return x*2;
+// }
+
+// const triple= function(x){
+//     return x*3;
+// }
+
+// const binary= function(x){
+//     return x.toString(2);
+// }
+
+
+
+// const output= arr.map(function(x){
+//     return x*2;
+// });
+
+// const output2= arr.map(function(x){
+//     return x*3;
+// });
+
+// const output3= arr.map(function(x){
+//     return x.toString(2);
+// });
+
+
+//arrow functions
+const output= arr.map((x)=> x*2);
+const output2= arr.map((x)=> x*3);
+const output3= arr.map((x)=> x.toString(2));
+
+console.log(output); // Output: [4, 8, 6, 14, 10]
+console.log(output2); // Output: [6, 12, 9, 21, 15]
+console.log(output3); // Output: ['10', '100', '11', '111', '101']
+
